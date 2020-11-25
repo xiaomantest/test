@@ -1,0 +1,17 @@
+#开发环境
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.3.104:8848
+        namespace: b712f65d-d141-44a0-837d-ada552ff27a3
+      discovery:
+        enabled: true
+        server-addr: 192.168.3.104:8848
+        namespace: b712f65d-d141-44a0-837d-ada552ff27a3
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.56.102:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 123456

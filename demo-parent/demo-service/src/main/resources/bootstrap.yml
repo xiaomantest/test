@@ -1,0 +1,9 @@
+#开发环境
+spring:
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        extension-configs:
+          - {refresh: true, group: xn-redis, data-id: xn-redis.yaml}

@@ -1,7 +1,6 @@
-spring: 
-  profiles:
-    active: pro
+server:
+  port: 9905
+
+spring:
   application:
-    name: service
-server: 
-  port: 8080
+    name: demo-service
